@@ -10,7 +10,7 @@ e insituições.
 O grafo pode ser gerado utilizando o graphviz:
 
 ```
-dot -Tps main.dot -o politica-brasileira.ps
+dot -Tpng main.dot -o politica-brasileira.png
 ```
 
 == Como contribuir
@@ -18,9 +18,9 @@ dot -Tps main.dot -o politica-brasileira.ps
 1. Escolha uma notícia para documentar
 2. Coloque o link pra notícia como comentário no arquivo fonte
 3. Documente o conteúdo da notícia em forma de grafo
-4. Gere o PS de output e adicione no projeto
+4. Gere o PNG de output e adicione no projeto
 5. Faça um pull request
 
 == Grafo atual
 
-![grafo](politica-brasileira.ps)
+![grafo](politica-brasileira.png)
