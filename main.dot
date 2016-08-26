@@ -3,10 +3,15 @@ digraph finite_state_machine {
   size="8,5"
   node [shape = doublecircle];
   node [shape = circle];
+
+  // http://politica.estadao.com.br/noticias/geral,tucano-aloysio-nunes-passa-a-ser-investigado-pelo-stf,1757244
+
   Petrobras -> UTC_Construtora [ label = "contratou" ]
   Ricardo_Pessoa -> UTC_Construtora [ label = "dono"]
   Ricardo_Pessoa -> Aloysio_Nunes_Ferreira [ label = "delatou"]
   Aloysio_Nunes_Ferreira -> "Aecio Neves" [ label = "vice da chapa"]
+
+  // http://www1.folha.uol.com.br/fsp/brasil/fc0403200125.htm
 
   "Jairo Gianoto" -> Prefeitura_Maringa [ label = "prefeito"]
   Prefeitura_Maringa -> Jaime_Lerner [ label = "desviou cheques para"]
