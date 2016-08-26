@@ -1,0 +1,18 @@
+== O que é
+
+Este projeto é uma tentativa de documentar o cenário político brasileiro
+na forma de um grafo.
+A ideia é conseguir enxergar melhor as relações e eventos que acontecem entre políticos
+e insituições.
+
+== Como gerar o grafo
+
+O grafo pode ser gerado utilizando o graphviz:
+
+`dot -Tps main.dot -o politica-brasileira.ps`
+
+== Como contribuir
+
+1. Escolha uma notícia para documentar
+2. Coloque o link pra notícia como comentário no arquivo fonte
+3. Documente o conteúdo da notícia em forma de grafo

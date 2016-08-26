@@ -1,0 +1,16 @@
+digraph finite_state_machine {
+  rankdir=LR;
+  size="8,5"
+  node [shape = doublecircle];
+  node [shape = circle];
+  Petrobras -> UTC_Construtora [ label = "contratou" ]
+  Ricardo_Pessoa -> UTC_Construtora [ label = "dono"]
+  Ricardo_Pessoa -> Aloysio_Nunes_Ferreira [ label = "delatou"]
+  Aloysio_Nunes_Ferreira -> "Aecio Neves" [ label = "vice da chapa"]
+
+  "Jairo Gianoto" -> Prefeitura_Maringa [ label = "prefeito"]
+  Prefeitura_Maringa -> Jaime_Lerner [ label = "desviou cheques para"]
+  Prefeitura_Maringa -> Alvaro_Dias [ label = "desviou cheques para"]
+  Alvaro_Dias -> Alberto_Youssef [ label = "fretou jatinho para" ]
+}
+
