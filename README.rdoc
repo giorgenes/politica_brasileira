@@ -23,4 +23,4 @@ dot -Tps main.dot -o politica-brasileira.ps
 
 == Grafo atual
 
-![politica-brasileira.ps]
+![grafo](politica-brasileira.ps)
